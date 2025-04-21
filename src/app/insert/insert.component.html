@@ -1,0 +1,10 @@
+
+<form [formGroup]="CreateForm" (ngSubmit)="onSubmit()">
+    loginID: <input formControlName="LoginID" type="text"><br>
+    Password: <input formControlName="Password" type="text"><br>
+    Name: <input formControlName="Name" type="text"><br>
+    Phone: <input formControlName="Phone" type="text"><br>
+    EmailID: <input formControlName="EmailID" type="text"><br>
+    Role: <input formControlName="Role" type="text"><br>
+    <button type="submit">submit</button>
+</form>
